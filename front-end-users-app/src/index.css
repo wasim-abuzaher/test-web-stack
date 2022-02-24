@@ -1,40 +1,40 @@
 body {
-  margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 60px;
-  color: var(--black);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--black);
 }
 
 h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 26px;
-  color: var(--black);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--black);
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 20px;
-  color: var(--black);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
 }
 
 :root {
-  --white: #FFF;
-  --black: #000;
-  --shadow-light-grey: #32325D3F;
-  --shadow-dark-grey: #0000004C;
+    --white: #FFF;
+    --black: #000;
+    --shadow-light-grey: #32325D3F;
+    --shadow-dark-grey: #0000004C;
 }
