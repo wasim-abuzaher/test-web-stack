@@ -3,6 +3,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background-grey);
 }
 
 h1 {
@@ -32,9 +33,18 @@ p {
     color: var(--black);
 }
 
+button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
 :root {
     --white: #FFF;
     --black: #000;
     --shadow-light-grey: #32325D3F;
     --shadow-dark-grey: #0000004C;
+    --background-grey: #F8F8F8;
 }
