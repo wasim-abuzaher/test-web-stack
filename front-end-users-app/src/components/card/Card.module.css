@@ -1,0 +1,11 @@
+.card {
+    width: 400px;
+    height: 336px;
+    border-radius: 8px;
+    background-color: var(--white);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-light-grey) 0 6px 12px -2px, var(--shadow-dark-grey) 0 3px 7px -3px;
+}
