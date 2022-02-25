@@ -1,0 +1,17 @@
+.avatar {
+    display: flex;
+    justify-content: center;
+    width: 168px;
+    height: 168px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.avatar img {
+    object-fit: cover;
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
