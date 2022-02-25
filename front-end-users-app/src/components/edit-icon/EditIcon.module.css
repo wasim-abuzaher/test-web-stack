@@ -1,0 +1,24 @@
+.button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    outline: none;
+    background-color: var(--background-grey);
+    box-shadow: var(--shadow-light-grey) 0 6px 12px -2px, var(--shadow-dark-grey) 0 3px 7px -3px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    background-color: var(--shadow-light-grey);
+    border-color: var(--shadow-light-grey);
+}

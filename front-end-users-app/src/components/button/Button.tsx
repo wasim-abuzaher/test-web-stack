@@ -1,9 +1,9 @@
-import React, { FC, ReactElement } from 'react';
+import React, { FC, ReactElement, MouseEvent } from 'react';
 import classes from './Button.module.css';
 import clsx from 'clsx';
 
 interface ButtonProps {
-    onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+    onClick: (e: MouseEvent<HTMLButtonElement>) => void;
     variant?: 'primary' | 'secondary';
     disabled?: boolean;
 }
