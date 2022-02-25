@@ -8,20 +8,21 @@
     line-height: 30px;
     color: var(--black);
     background: var(--white);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--grey-0_1);
     border-radius: 8px;
     margin-top: 8px;
+    padding: 16px;
     transition: border-color 0.2s ease-in-out;
 }
 
 .input:focus {
     outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--grey-0_3);
 }
 
 .input::placeholder {
     font-weight: 300;
-    color: var(--black);
+    color: var(--grey-0_4);
 }
 
 .label {

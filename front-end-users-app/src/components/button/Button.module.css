@@ -1,5 +1,5 @@
 .button {
-    border: 4px solid rgba(0, 0, 0, 0.1);
+    border: 4px solid var(--grey-0_1);
     box-sizing: border-box;
     border-radius: 8px;
     min-width: 280px;
@@ -8,12 +8,12 @@
 }
 
 .button:hover {
-    border: 4px solid rgba(0, 0, 0, 0.4);
+    border: 4px solid var(--grey-0_4);
     outline: none;
 }
 
 .button:focus {
-    border: 4px solid rgba(0, 0, 0, 0.5);
+    border: 4px solid var(--grey-0_5);
     outline: none;
 }
 
@@ -28,7 +28,7 @@
 .disabled,
 .disabled:hover,
 .disabled:focus {
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    color: rgba(0, 0, 0, 0.5);
+    border: 4px solid var(--grey-0_1);
+    color: var(--grey-0_5);
     cursor: not-allowed;
 }

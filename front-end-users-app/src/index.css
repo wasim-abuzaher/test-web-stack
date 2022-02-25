@@ -54,6 +54,10 @@ button {
 :root {
     --white: #FFF;
     --black: #000;
+    --grey-0_1: rgba(0, 0, 0, 0.1);
+    --grey-0_3: rgba(0, 0, 0, 0.3);
+    --grey-0_4: rgba(0, 0, 0, 0.4);
+    --grey-0_5: rgba(0, 0, 0, 0.5);
     --shadow-light-grey: #32325D3F;
     --shadow-dark-grey: #0000004C;
     --background-grey: #F8F8F8;
