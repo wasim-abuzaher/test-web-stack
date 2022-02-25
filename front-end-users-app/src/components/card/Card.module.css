@@ -1,11 +1,51 @@
 .card {
     width: 400px;
     height: 336px;
+    padding: 44px 32px 40px;
     border-radius: 8px;
+    position: relative;
     background-color: var(--white);
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .card:hover {
     box-shadow: var(--shadow-light-grey) 0 6px 12px -2px, var(--shadow-dark-grey) 0 3px 7px -3px;
+}
+
+.editIcon {
+    opacity: 0;
+    position: absolute;
+    top: 14px;
+    right: 19px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover .editIcon {
+    opacity: 1;
+}
+
+.avatarDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.createdP {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover .createdP {
+    opacity: 1;
+}
+
+.createdSpan {
+    color: var(--red);
+    font-weight: 400;
 }

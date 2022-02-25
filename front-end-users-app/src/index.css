@@ -1,3 +1,9 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -22,6 +28,8 @@ h2 {
     font-size: 21px;
     line-height: 26px;
     color: var(--black);
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 p {
@@ -31,6 +39,8 @@ p {
     font-size: 16px;
     line-height: 20px;
     color: var(--black);
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 button {
@@ -47,4 +57,5 @@ button {
     --shadow-light-grey: #32325D3F;
     --shadow-dark-grey: #0000004C;
     --background-grey: #F8F8F8;
+    --red: #B01E1E;
 }

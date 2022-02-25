@@ -11,6 +11,7 @@
 .button:hover {
     outline: none;
     background-color: var(--background-grey);
+    border-color: var(--background-grey);
     box-shadow: var(--shadow-light-grey) 0 6px 12px -2px, var(--shadow-dark-grey) 0 3px 7px -3px;
 }
 

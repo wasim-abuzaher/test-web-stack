@@ -1,13 +1,18 @@
 import React, { FC, ReactElement, MouseEvent } from 'react';
 import classes from './EditIcon.module.css';
+import clsx from 'clsx';
 
 interface EditIconProps {
     onClick: (e: MouseEvent<HTMLButtonElement>) => void;
+    className?: string;
 }
 
-export const EditIcon: FC<EditIconProps> = ({ onClick }): ReactElement => {
+export const EditIcon: FC<EditIconProps> = ({
+    onClick,
+    className = '',
+}): ReactElement => {
     return (
-        <button className={classes.button} onClick={onClick}>
+        <button className={clsx(classes.button, className)} onClick={onClick}>
             <svg
                 width='19'
                 height='19'
