@@ -1,5 +1,12 @@
+.inputRoot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .input {
     font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
     min-width: 400px;
     height: 64px;
     font-style: normal;

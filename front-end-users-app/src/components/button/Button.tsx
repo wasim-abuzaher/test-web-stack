@@ -6,6 +6,7 @@ interface ButtonProps {
     onClick: (e: MouseEvent<HTMLButtonElement>) => void;
     variant?: 'primary' | 'secondary';
     disabled?: boolean;
+    className?: string;
 }
 
 export const Button: FC<ButtonProps> = ({
@@ -13,10 +14,11 @@ export const Button: FC<ButtonProps> = ({
     variant = 'primary',
     disabled = false,
     children,
+    className = '',
 }): ReactElement => {
     return (
         <button
-            className={clsx(classes.button, {
+            className={clsx(classes.button, className, {
                 [classes.primary]: variant === 'primary',
                 [classes.secondary]: variant === 'secondary',
                 [classes.disabled]: disabled,

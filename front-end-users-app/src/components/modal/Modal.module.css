@@ -1,0 +1,71 @@
+.backdrop {
+    background-color: var(--grey-0_3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.open {
+    opacity: 1;
+    z-index: 100;
+}
+
+.modal {
+    background-color: var(--background-grey);
+    width: 1328px;
+    height: 725px;
+    max-width: 1328px;
+    max-height: 725px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.modalBody {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 64px 0;
+}
+
+.mapDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 518px;
+    margin-right: 60px;
+}
+
+.editFields {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputField {
+    width: 100%;
+}
+
+.inputField:nth-child(2)  {
+    margin: 36px 0;
+}
+
+.modalActions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.saveButton {
+    margin-right: 62px;
+}
